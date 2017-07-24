@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:scaleType="centerCrop"
+        android:id="@+id/building"
+        android:toDegrees="90"
+        android:src="@drawable/levy"/>
+
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="250sp"
+        android:id="@+id/dance"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/building"
+    android:toDegrees="90"
+    android:src="@drawable/dance"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+        android:text="Learn to Dance" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/address"
+        android:text="123 Main St
+Louisville KY
+502-555-5555"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:padding="50dp"
+        android:textColor="@android:color/white"
+        android:layout_above="@id/address"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/name"
+
+        android:text="Dance Studio Louisville"/>
+
+
+</RelativeLayout>
